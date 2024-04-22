@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.offer {
+    width: 1200px;
+}
+a, img, span {
+    display: block;
+}
+h2, p, a {
+    text-align: center;
+}
+.align {
+    align-items: center;
+}
+header {
+    padding: 22px 0 22px 0;
+}
+header, ul, .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: black;
+}
+ul {
+    width: 735px;
+}
+.logo img {
+    width:  160px;
+    height: 36px;
+}
+.icons {
+    width: 50px;
+    height: 50px;
+}
+.icons img {
+    width: 16px;
+    height:  16px;
+}
+.first_screen {
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first_screen h2 {
+    font-size: 44px;
+    font-weight: 400;
+    padding-top: 53px;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 14px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    padding: 22px 0 618px 0;
+}
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+.btn {
+    border-radius: 35px;
+    background: rgb(255, 74, 50);
+    width: 225px;
+    margin: 0 auto;
+    padding: 10px 47px 10px 47px;
+}
+.second_screen {
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 735px;
+}
+.second_screent p:nth-child(1) {
+    padding-top: 43px;
+}
+.second_screen h2 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 11px;
+}
+.second_screen p:nth-child(2) {
+    padding: 15px 0 15px 0;
+}
+.second_screen .btn {
+    margin-top: 20px;
+}
+li {
+    list-style: none;
+}
